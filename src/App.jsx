@@ -5,8 +5,10 @@ export default function App() {
     <>
       <div className="content">
         <div className="overview">
-          <div className="overvieTimeline box"></div>
-          <div className="overviewProjects box"></div>
+          <div className="overviewTopWrapper">
+            <div className="overvieTimeline box"></div>
+            <div className="overviewProjects box"></div>
+          </div>
           <div className="overviewWorkflow box"></div>
         </div>
       </div>
