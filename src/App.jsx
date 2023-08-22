@@ -1,16 +1,13 @@
-import './App.css';
+import './styles/App.css';
+import Overview from './components/Overview.jsx';
+import Projects from './components/Projects.jsx';
 
 export default function App() {
   return (
     <>
       <div className="content">
-        <div className="overview">
-          <div className="overviewTopWrapper">
-            <div className="overvieTimeline box"></div>
-            <div className="overviewProjects box"></div>
-          </div>
-          <div className="overviewWorkflow box"></div>
-        </div>
+        <Overview />
+        <Projects />
       </div>
       <div className="profileCardNavBarWrapper">
         <div className="profileCardNavBar">
